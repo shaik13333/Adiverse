@@ -1,0 +1,264 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-bottom: 30px;
+         box-shadow: 3px -5px 10px rgb(79, 77, 77); 
+         background-color: white;
+         z-index: 1;
+
+}
+#nav {
+    background-color: #ffffff;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;    
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+#ul {
+    position: absolute;
+    bottom: 23px;
+    left: 867px;
+}
+
+#ul li:hover {
+    color: rgba(253, 88, 37, 1);
+    cursor: pointer;
+}
+
+#li1 {
+    color: rgba(253, 88, 37, 1);
+}
+
+/* #ul:first-child {
+    margin-top: 20px;
+    color:rgba(253, 88, 37, 1); ;
+} */
+
+#logo {
+    margin: 10px;
+    margin-left: 317px;
+}
+
+#but1 {
+    padding: 8px 22px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(253, 88, 37, 1);
+    color: white;
+    font-size: 18px;
+}
+
+#p1 {
+    width: 500px;
+    height: 90x;
+    color: rgb(79, 73, 73);
+    margin-left: 315px;
+    margin-top: 53px;
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+    font-weight: 100;
+}
+
+#first_img {
+    margin-left: 200px;
+    display: inline-block;
+    margin-bottom: 100px;
+    position: absolute;
+    left: 860px;
+    top: -85px;
+   
+    /* margin-bottom: 200px; */
+
+}
+
+#content {
+    position: relative;
+}
+
+#but2 {
+    padding: 10px 31px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(253, 88, 37, 1);
+    color: white;
+    font-size: 18px;
+    letter-spacing: 0.01rem;
+    margin-left: 313px;
+
+    margin-top: 48px;
+}
+
+.three_divs {
+    width: 422px;
+    height: 293px;
+    border: solid;
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 120px;
+    /* margin: auto; */
+    margin-right: 15px;
+    /* text-align: center; */
+    border: none;
+    transition: all 0.5s;
+}
+
+#first_div {
+    margin-left: 300px;
+    background-color: #fe5825;
+}
+
+#first_div:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+#second_div {
+    background-color: #f2a61d;
+    bottom: -100px;
+    transition: all 0.5s;
+}
+
+#second_div:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+#third_div {
+    background-color: #999a1c;
+    transition: all 0.5s;
+}
+
+#third_div:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+.three_divs p {
+    width: 356px;
+    height: 120px;
+    margin-left: 25px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.679);
+}
+
+.three_divs h4 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 11.5px;
+    color: white;
+}
+
+.three_divs button {
+    padding: 6px 16px;
+    margin-left: 26px;
+    margin-top: 19px;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.683);
+}
+
+#images_scroll {
+    margin-left: 260px;
+    margin-top: 138px;
+}
+
+#images_scroll img {
+    margin-right: 57px;
+}
+
+#ul2 li {
+    margin-right: 230px;
+    margin-top: 50px;
+}
+
+.container {
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 100px;
+    word-wrap: 0.3rem;
+}
+
+#con1,
+#con2,
+#con3 {
+    display: inline-block;
+    width: 330px;
+    height: 440px;
+    word-wrap: 1rem;
+    /* border: 2px solid; */
+
+
+
+}
+
+#con1 {
+    position: relative;
+    right: 59px;
+    width: 261px;
+    margin-left: -43px;
+
+}
+
+#con3 {
+    position: absolute;
+    left: 1199px;
+}
+
+#con2 {
+    position: absolute;
+    right: 201px;
+    left: 837px
+}
+
+.container h6 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.53);
+    margin-bottom: 20px;
+}
+
+.container b {
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+
+.container h5 {
+    font-size: 16px;
+    color: #00000080;
+    margin-bottom: 9px;
+    margin-top: 23px;
+
+}
+
+.container p {
+    color: #0000008a;
+    font-weight: 500;
+    margin-bottom: 11px;
+    margin-bottom: 11px;
+    line-height: 24px;
+}
+
+.container a {
+    color: rgba(0, 0, 0, 0.488);
+}
